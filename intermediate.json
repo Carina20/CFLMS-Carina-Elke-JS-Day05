@@ -1,0 +1,15 @@
+var data1 = `[
+    {"ID" : "01", "firstName" : "Eva", "lastName" : "Musterperson", "email" : "eva@gmail.com", "jobTitle" : "CEO", "salary" : "5,000€" },
+    {"ID" : "02", "firstName" : "Max", "lastName" : "Musterperson", "email" : "max@gmail.com", "jobTitle" : "CFO", "salary" : "4,000€" },
+    {"ID" : "03", "firstName" : "Claudia", "lastName" : "Musterperson", "email" : "claudia@gmail.com", "jobTitle" : "CMO", "salary" : "3,500€" },
+    {"ID" : "04", "firstName" : "Ines", "lastName" : "Musterperson", "email" : "ines@gmail.com", "jobTitle" : "CTO", "salary" : "3,500€" },
+    {"ID" : "05", "firstName" : "Paul", "lastName" : "Musterperson", "email" : "paul@gmail.com", "jobTitle" : "Cleaning", "salary" : "2,500€" }
+    ]`
+
+var data2 = `[
+    {"ID" : "06", "firstName" : "Pete", "lastName" : "Musterperson", "email" : "pete@gmail.com", "jobTitle" : "Research", "salary" : "1,500€" },
+    {"ID" : "07", "firstName" : "Fred", "lastName" : "Musterperson", "email" : "fred@gmail.com", "jobTitle" : "Research", "salary" : "2,000€" },
+    {"ID" : "08", "firstName" : "Marian", "lastName" : "Musterperson", "email" : "marian@gmail.com", "jobTitle" : "Research", "salary" : "3,000€" },
+    {"ID" : "09", "firstName" : "Andy", "lastName" : "Musterperson", "email" : "andy@gmail.com", "jobTitle" : "Research", "salary" : "3,500€" },
+    {"ID" : "10", "firstName" : "Billy", "lastName" : "Musterperson", "email" : "bill@gmail.com", "jobTitle" : "Research", "salary" : "4,000€" }
+    ]`

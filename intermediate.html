@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script  type="text/javascript" src="intermediate.json"></script>
+<script>
+    var myData1 = JSON.parse(data1);
+    var i = 0;
+    document.writeln("<table border='1'><tr>");
+    for (i = 0; i < myData1.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>ID</b></td><td width=50>" + myData1[i].ID + "</td></tr>");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + myData1[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + myData1[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>Email</b></td><td width=50>" + myData1[i].email + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=50>" + myData1[i].jobTitle + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + myData1[i].salary + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+    var myData2 = JSON.parse(data2);
+    var i = 0;
+    document.writeln("<table border='1'><tr>");
+    for (i = 0; i < myData2.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>ID</b></td><td width=50>" + myData2[i].ID + "</td></tr>");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + myData2[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + myData2[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>Email</b></td><td width=50>" + myData2[i].email + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=50>" + myData2[i].jobTitle + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + myData2[i].salary + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+</script>
+</body>
+</html>
+
+<!-- Create a JSON file which contains the following details per employee:
+Unique ID, First Name, Last Name, Email address,Job Title, Salary
+Fill the JSON file with meaningful data for 10 Employees.
+Print each employee's details in a table which will look
+representative and easily readable for the management team. -->
