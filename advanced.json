@@ -1,0 +1,8 @@
+var books = `[
+{"title" : "Freedom", "author": "Jonathan Franzen", "read": "false", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jonathan_Franzen_at_the_Brooklyn_Book_Festival.jpg/96px-Jonathan_Franzen_at_the_Brooklyn_Book_Festival.jpg"},
+{"title" : "Tuesdays with Morrie", "author": "Mitch Albom", "read": "true", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mitch_Albom%27s_book_signing_2010-09-02.jpg/120px-Mitch_Albom%27s_book_signing_2010-09-02.jpg"},
+{"title" : "Reborn", "author": "Susan Sontag", "read": "true", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Susan_Sontag_1979_%C2%A9Lynn_Gilbert_%28headshot%29.jpg/120px-Susan_Sontag_1979_%C2%A9Lynn_Gilbert_%28headshot%29.jpg"}
+]`
+
+
+
